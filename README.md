@@ -1,6 +1,6 @@
 # exampleCRUD
 
-Basic CRUD operations with Angular.js Express.js Node.js Mongodb Mongoose
+Basic CRUD operations with Angular.js Express.js Node.js Mongodb and Mongoose
 
 1.PLATFORM-
 Visual Studio Code
