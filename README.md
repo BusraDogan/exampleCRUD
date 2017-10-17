@@ -3,7 +3,7 @@
 Basic CRUD operations with Angular.js Express.js Node.js Mongodb and Mongoose
 
 1.PLATFORM-
-Visual Studio Code
+Visual Studio Code (Please enter -> node app  on VS Code Terminal in order to Connect with Database)
 
 2.DATABASE-
 MongoDb Connection (for storing and using data)
