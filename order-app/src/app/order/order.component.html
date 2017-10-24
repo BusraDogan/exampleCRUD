@@ -1,0 +1,9 @@
+<h1>OrderComponent</h1>
+{{ orders | json}}
+<app-order-new (createNewOrderEvent) = "create ($event)" > </app-order-new>
+<app-order-list 
+[orders]="orders"
+(deleteOrderEvent)="delete($event)"
+(updateOrderEvent)="update($event)"
+
+></app-order-list>

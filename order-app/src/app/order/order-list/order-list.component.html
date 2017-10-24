@@ -1,0 +1,7 @@
+<h3>OrderListComponent</h3>
+<div *ngFor="let order of orders">
+  {{order._id}} -{{order.orderId}} - {{order.companyName}} -  {{order.customerAddress}}- {{order.orderedItem}}- {{order.orderCost}}-  {{order.orderDate}}
+  <button (click)="delete()" > Delete </button>
+  <button (click)= "order.editable"  =!order.editable >Edit</button>            
+  <app-order-edit [order]="order" (updateOrderEvent)="update($event)" *ngIf="order.editable"></app-order-edit>
+</div>
